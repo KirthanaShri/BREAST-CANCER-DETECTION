@@ -1,0 +1,15 @@
+2023-12-03_20-48-01: config: {'n_epochs': 20, 'batch_size': 32, 'h': 224, 'w': 224, 'lr': 0.001, 'optimizer': 'sgd', 'momentum': 0.9, 'weight_decay': 0, 'device': 'cuda:0', 'n_gpus': 1, 'model': 'MLP', 'h_dim_list': [80, 50, 50, 40, 25]}
+2023-12-03_20-48-02: layers.0.weight: torch.Size([80, 150528])
+2023-12-03_20-48-02: layers.0.bias: torch.Size([80])
+2023-12-03_20-48-02: layers.2.weight: torch.Size([50, 80])
+2023-12-03_20-48-02: layers.2.bias: torch.Size([50])
+2023-12-03_20-48-02: layers.4.weight: torch.Size([50, 50])
+2023-12-03_20-48-02: layers.4.bias: torch.Size([50])
+2023-12-03_20-48-02: layers.6.weight: torch.Size([40, 50])
+2023-12-03_20-48-02: layers.6.bias: torch.Size([40])
+2023-12-03_20-48-02: layers.8.weight: torch.Size([25, 40])
+2023-12-03_20-48-02: layers.8.bias: torch.Size([25])
+2023-12-03_20-48-02: layers.10.weight: torch.Size([2, 25])
+2023-12-03_20-48-02: layers.10.bias: torch.Size([2])
+2023-12-03_20-48-02: 
+Total parameters: 12,052,037;	Trainable: 12,052,037

@@ -1,0 +1,11 @@
+2023-12-04_01-05-22: config: {'n_epochs': 10, 'batch_size': 32, 'h': 224, 'w': 224, 'lr': 0.0001, 'optimizer': 'adam', 'momentum': 0.9, 'weight_decay': 0, 'device': 'cuda:1', 'n_gpus': 1, 'kernel_size': 3, 'model': 'CNN', 'use_pooling': True, 'num_kernel_conv_list': [32, 64, 64]}
+2023-12-04_01-05-22: conv1.weight: torch.Size([32, 3, 3, 3])
+2023-12-04_01-05-22: conv1.bias: torch.Size([32])
+2023-12-04_01-05-22: conv_layers.0.weight: torch.Size([64, 32, 3, 3])
+2023-12-04_01-05-22: conv_layers.0.bias: torch.Size([64])
+2023-12-04_01-05-22: conv_layers.3.weight: torch.Size([64, 64, 3, 3])
+2023-12-04_01-05-22: conv_layers.3.bias: torch.Size([64])
+2023-12-04_01-05-22: linear.weight: torch.Size([2, 200704])
+2023-12-04_01-05-22: linear.bias: torch.Size([2])
+2023-12-04_01-05-22: 
+Total parameters: 457,730;	Trainable: 457,730

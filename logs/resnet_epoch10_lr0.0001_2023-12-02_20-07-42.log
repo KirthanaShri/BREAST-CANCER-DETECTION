@@ -1,0 +1,98 @@
+2023-12-02_20-07-42: config: {'n_epochs': 10, 'batch_size': 32, 'h': 224, 'w': 224, 'lr': 0.0001, 'optimizer': 'sgd', 'momentum': 0.9, 'device': 'cuda', 'n_gpus': 2, 'kernel_size': 3, 'flatten': False, 'model': 'resnet', 'num_blocks_list': [2, 2, 2, 2], 'is_batchnorm': True}
+2023-12-02_20-07-42: conv1.0.weight: torch.Size([64, 3, 3, 3])
+2023-12-02_20-07-42: conv1.1.weight: torch.Size([64])
+2023-12-02_20-07-42: conv1.1.bias: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.0.sequence.0.weight: torch.Size([64, 64, 3, 3])
+2023-12-02_20-07-42: conv2_x.0.sequence.1.weight: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.0.sequence.1.bias: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.0.sequence.3.weight: torch.Size([64, 64, 3, 3])
+2023-12-02_20-07-42: conv2_x.0.sequence.4.weight: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.0.sequence.4.bias: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.1.sequence.0.weight: torch.Size([64, 64, 3, 3])
+2023-12-02_20-07-42: conv2_x.1.sequence.1.weight: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.1.sequence.1.bias: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.1.sequence.3.weight: torch.Size([64, 64, 3, 3])
+2023-12-02_20-07-42: conv2_x.1.sequence.4.weight: torch.Size([64])
+2023-12-02_20-07-42: conv2_x.1.sequence.4.bias: torch.Size([64])
+2023-12-02_20-07-42: conv3_x.0.sequence.0.weight: torch.Size([128, 64, 3, 3])
+2023-12-02_20-07-42: conv3_x.0.sequence.1.weight: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.0.sequence.1.bias: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.0.sequence.3.weight: torch.Size([128, 128, 3, 3])
+2023-12-02_20-07-42: conv3_x.0.sequence.4.weight: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.0.sequence.4.bias: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.0.shortcut.0.weight: torch.Size([128, 64, 1, 1])
+2023-12-02_20-07-42: conv3_x.0.shortcut.1.weight: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.0.shortcut.1.bias: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.1.sequence.0.weight: torch.Size([128, 128, 3, 3])
+2023-12-02_20-07-42: conv3_x.1.sequence.1.weight: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.1.sequence.1.bias: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.1.sequence.3.weight: torch.Size([128, 128, 3, 3])
+2023-12-02_20-07-42: conv3_x.1.sequence.4.weight: torch.Size([128])
+2023-12-02_20-07-42: conv3_x.1.sequence.4.bias: torch.Size([128])
+2023-12-02_20-07-42: conv4_x.0.sequence.0.weight: torch.Size([256, 128, 3, 3])
+2023-12-02_20-07-42: conv4_x.0.sequence.1.weight: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.0.sequence.1.bias: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.0.sequence.3.weight: torch.Size([256, 256, 3, 3])
+2023-12-02_20-07-42: conv4_x.0.sequence.4.weight: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.0.sequence.4.bias: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.0.shortcut.0.weight: torch.Size([256, 128, 1, 1])
+2023-12-02_20-07-42: conv4_x.0.shortcut.1.weight: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.0.shortcut.1.bias: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.1.sequence.0.weight: torch.Size([256, 256, 3, 3])
+2023-12-02_20-07-42: conv4_x.1.sequence.1.weight: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.1.sequence.1.bias: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.1.sequence.3.weight: torch.Size([256, 256, 3, 3])
+2023-12-02_20-07-42: conv4_x.1.sequence.4.weight: torch.Size([256])
+2023-12-02_20-07-42: conv4_x.1.sequence.4.bias: torch.Size([256])
+2023-12-02_20-07-42: conv5_x.0.sequence.0.weight: torch.Size([512, 256, 3, 3])
+2023-12-02_20-07-42: conv5_x.0.sequence.1.weight: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.0.sequence.1.bias: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.0.sequence.3.weight: torch.Size([512, 512, 3, 3])
+2023-12-02_20-07-42: conv5_x.0.sequence.4.weight: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.0.sequence.4.bias: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.0.shortcut.0.weight: torch.Size([512, 256, 1, 1])
+2023-12-02_20-07-42: conv5_x.0.shortcut.1.weight: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.0.shortcut.1.bias: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.1.sequence.0.weight: torch.Size([512, 512, 3, 3])
+2023-12-02_20-07-42: conv5_x.1.sequence.1.weight: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.1.sequence.1.bias: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.1.sequence.3.weight: torch.Size([512, 512, 3, 3])
+2023-12-02_20-07-42: conv5_x.1.sequence.4.weight: torch.Size([512])
+2023-12-02_20-07-42: conv5_x.1.sequence.4.bias: torch.Size([512])
+2023-12-02_20-07-42: fc.weight: torch.Size([2, 512])
+2023-12-02_20-07-42: fc.bias: torch.Size([2])
+2023-12-02_20-07-42: 
+Total parameters: 11,169,858;	Trainable: 11,169,858
+2023-12-02_20-08-49: Epoch: 2 | Train loss: 0.552581544462088 | Train acc: {'40X': 72.38, '100X': 74.28, '200X': 72.93, '400X': 73.09, 'avg_acc': 73.17, 'all_acc': 73.18} | Valid loss: 0.4449230608344078 | Valid acc: {'40X': 79.45, '100X': 80.34, '200X': 83.83, '400X': 81.04, 'avg_acc': 81.17, 'all_acc': 81.16}| Runtime: 1.1 mins
+2023-12-02_20-09-57: Epoch: 3 | Train loss: 0.425911475677748 | Train acc: {'40X': 79.98, '100X': 82.17, '200X': 83.77, '400X': 82.55, 'avg_acc': 82.12, 'all_acc': 82.12} | Valid loss: 0.3803078028559685 | Valid acc: {'40X': 81.7, '100X': 83.21, '200X': 84.08, '400X': 84.62, 'avg_acc': 83.4, 'all_acc': 83.38}| Runtime: 1.1 mins
+2023-12-02_20-11-05: Epoch: 4 | Train loss: 0.40154501926657316 | Train acc: {'40X': 79.87, '100X': 81.85, '200X': 83.9, '400X': 83.75, 'avg_acc': 82.34, 'all_acc': 82.31} | Valid loss: 0.36422235012054444 | Valid acc: {'40X': 83.46, '100X': 84.89, '200X': 85.07, '400X': 87.09, 'avg_acc': 85.13, 'all_acc': 85.08}| Runtime: 1.1 mins
+2023-12-02_20-12-11: Epoch: 5 | Train loss: 0.38641405216342695 | Train acc: {'40X': 79.58, '100X': 83.37, '200X': 85.31, '400X': 84.05, 'avg_acc': 83.08, 'all_acc': 83.07} | Valid loss: 0.35979882687330245 | Valid acc: {'40X': 81.7, '100X': 82.97, '200X': 85.07, '400X': 82.42, 'avg_acc': 83.04, 'all_acc': 83.06}| Runtime: 1.1 mins
+2023-12-02_20-13-18: Epoch: 6 | Train loss: 0.3751782679275886 | Train acc: {'40X': 81.37, '100X': 83.52, '200X': 85.47, '400X': 83.78, 'avg_acc': 83.54, 'all_acc': 83.53} | Valid loss: 0.34386746197938917 | Valid acc: {'40X': 83.46, '100X': 84.41, '200X': 86.32, '400X': 86.26, 'avg_acc': 85.11, 'all_acc': 85.08}| Runtime: 1.1 mins
+2023-12-02_20-14-26: Epoch: 7 | Train loss: 0.3633179666625487 | Train acc: {'40X': 81.17, '100X': 83.81, '200X': 85.86, '400X': 83.96, 'avg_acc': 83.7, 'all_acc': 83.7} | Valid loss: 0.3377897408604622 | Valid acc: {'40X': 81.95, '100X': 88.01, '200X': 86.57, '400X': 87.64, 'avg_acc': 86.04, 'all_acc': 86.03}| Runtime: 1.1 mins
+2023-12-02_20-15-33: Epoch: 8 | Train loss: 0.3530218976776342 | Train acc: {'40X': 81.76, '100X': 84.76, '200X': 85.56, '400X': 85.31, 'avg_acc': 84.35, 'all_acc': 84.33} | Valid loss: 0.31807453274726866 | Valid acc: {'40X': 83.46, '100X': 87.05, '200X': 87.06, '400X': 86.54, 'avg_acc': 86.03, 'all_acc': 86.03}| Runtime: 1.1 mins
+2023-12-02_20-16-41: Epoch: 9 | Train loss: 0.34844792734932256 | Train acc: {'40X': 82.62, '100X': 83.69, '200X': 86.24, '400X': 86.12, 'avg_acc': 84.67, 'all_acc': 84.63} | Valid loss: 0.31483404964208606 | Valid acc: {'40X': 84.21, '100X': 86.57, '200X': 87.56, '400X': 86.54, 'avg_acc': 86.22, 'all_acc': 86.22}| Runtime: 1.1 mins
+2023-12-02_20-17-54: Epoch: 10 | Train loss: 0.3420681872883359 | Train acc: {'40X': 82.56, '100X': 84.99, '200X': 86.59, '400X': 85.58, 'avg_acc': 84.93, 'all_acc': 84.92} | Valid loss: 0.3363067471981049 | Valid acc: {'40X': 82.46, '100X': 83.69, '200X': 87.06, '400X': 84.62, 'avg_acc': 84.46, 'all_acc': 84.45}| Runtime: 1.2 mins
+2023-12-02_20-19-02: Epoch: 11 | Train loss: 0.3308492061254141 | Train acc: {'40X': 82.15, '100X': 85.39, '200X': 87.56, '400X': 86.25, 'avg_acc': 85.34, 'all_acc': 85.33} | Valid loss: 0.3069238796830177 | Valid acc: {'40X': 84.71, '100X': 86.57, '200X': 87.31, '400X': 86.81, 'avg_acc': 86.35, 'all_acc': 86.35}| Runtime: 1.1 mins
+2023-12-02_20-19-02: Train summary:    epoch    40X   100X   200X   400X  avg_acc  all_acc
+0      1  72.38  74.28  72.93  73.09    73.17    73.18
+1      2  79.98  82.17  83.77  82.55    82.12    82.12
+2      3  79.87  81.85  83.90  83.75    82.34    82.31
+3      4  79.58  83.37  85.31  84.05    83.08    83.07
+4      5  81.37  83.52  85.47  83.78    83.54    83.53
+5      6  81.17  83.81  85.86  83.96    83.70    83.70
+6      7  81.76  84.76  85.56  85.31    84.35    84.33
+7      8  82.62  83.69  86.24  86.12    84.67    84.63
+8      9  82.56  84.99  86.59  85.58    84.93    84.92
+9     10  82.15  85.39  87.56  86.25    85.34    85.33
+2023-12-02_20-19-02: Eval summary:    epoch    40X   100X   200X   400X  avg_acc  all_acc
+0      1  79.45  80.34  83.83  81.04    81.17    81.16
+1      2  81.70  83.21  84.08  84.62    83.40    83.38
+2      3  83.46  84.89  85.07  87.09    85.13    85.08
+3      4  81.70  82.97  85.07  82.42    83.04    83.06
+4      5  83.46  84.41  86.32  86.26    85.11    85.08
+5      6  81.95  88.01  86.57  87.64    86.04    86.03
+6      7  83.46  87.05  87.06  86.54    86.03    86.03
+7      8  84.21  86.57  87.56  86.54    86.22    86.22
+8      9  82.46  83.69  87.06  84.62    84.46    84.45
+9     10  84.71  86.57  87.31  86.81    86.35    86.35
+2023-12-02_20-19-02: Final test accuracy: {'40X': 84.96, '100X': 82.69, '200X': 91.81, '400X': 85.99, 'avg_acc': 86.36, 'all_acc': 86.35}

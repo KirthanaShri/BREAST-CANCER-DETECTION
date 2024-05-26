@@ -1,0 +1,12 @@
+2023-12-04_01-03-30: config: {'n_epochs': 10, 'batch_size': 32, 'h': 224, 'w': 224, 'lr': 0.0001, 'optimizer': 'adam', 'momentum': 0.9, 'weight_decay': 0, 'device': 'cuda:0', 'n_gpus': 1, 'kernel_size': 3, 'model': 'CNN', 'use_pooling': True, 'num_kernel_conv_list': [32, 64, 64]}
+2023-12-04_01-03-30: conv1.weight: torch.Size([32, 3, 3, 3])
+2023-12-04_01-03-30: conv1.bias: torch.Size([32])
+2023-12-04_01-03-30: conv_layers.0.weight: torch.Size([64, 32, 3, 3])
+2023-12-04_01-03-30: conv_layers.0.bias: torch.Size([64])
+2023-12-04_01-03-30: conv_layers.3.weight: torch.Size([64, 64, 3, 3])
+2023-12-04_01-03-30: conv_layers.3.bias: torch.Size([64])
+2023-12-04_01-03-30: linear.weight: torch.Size([2, 200704])
+2023-12-04_01-03-30: linear.bias: torch.Size([2])
+2023-12-04_01-03-30: 
+Total parameters: 457,730;	Trainable: 457,730
+2023-12-04_01-04-33: Epoch: 1 | Train loss: 0.4194251948313133 | Train acc: {'40X': 79.98, '100X': 81.77, '200X': 85.93, '400X': 83.47, 'avg_acc': 82.79, 'all_acc': 82.77} | Valid loss: 0.3365642289817333 | Valid acc: {'40X': 85.21, '100X': 87.29, '200X': 87.06, '400X': 86.26, 'avg_acc': 86.46, 'all_acc': 86.47}| Runtime: 1.0 mins

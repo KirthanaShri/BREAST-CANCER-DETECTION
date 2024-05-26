@@ -1,0 +1,14 @@
+n_epochs: 30
+batch_size: 32
+h: 224
+w: 224
+lr: 0.001 ## 0.001, 0.0001, 0.00001
+optimizer: adam ## adam, sgd
+momentum: 0.9
+weight_decay: 0
+device: "cuda"
+n_gpus: 2
+kernel_size: 3
+model: resnet
+num_blocks_list: [2, 2, 2, 2] ## [2, 2, 2, 2], [3,2,3,4], [3, 4, 6, 3],
+is_batchnorm: true  ##`true` or `false`

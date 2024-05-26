@@ -1,0 +1,17 @@
+2023-12-03_20-34-31: config: {'n_epochs': 20, 'batch_size': 32, 'h': 224, 'w': 224, 'lr': 0.001, 'optimizer': 'adam', 'momentum': 0.9, 'weight_decay': 0, 'device': 'cuda', 'n_gpus': 2, 'model': 'MLP', 'h_dim_list': [80, 50, 40]}
+2023-12-03_20-34-31: layers.0.weight: torch.Size([80, 150528])
+2023-12-03_20-34-31: layers.0.bias: torch.Size([80])
+2023-12-03_20-34-31: layers.2.weight: torch.Size([50, 80])
+2023-12-03_20-34-31: layers.2.bias: torch.Size([50])
+2023-12-03_20-34-31: layers.4.weight: torch.Size([40, 50])
+2023-12-03_20-34-31: layers.4.bias: torch.Size([40])
+2023-12-03_20-34-31: layers.6.weight: torch.Size([2, 40])
+2023-12-03_20-34-31: layers.6.bias: torch.Size([2])
+2023-12-03_20-34-31: 
+Total parameters: 12,048,492;	Trainable: 12,048,492
+2023-12-03_20-35-26: Epoch: 1 | Train loss: 217.9000605554194 | Train acc: {'40X': 63.77, '100X': 68.19, '200X': 68.94, '400X': 68.32, 'avg_acc': 67.31, 'all_acc': 67.29} | Valid loss: 36.286168384552 | Valid acc: {'40X': 72.68, '100X': 76.5, '200X': 77.11, '400X': 75.27, 'avg_acc': 75.39, 'all_acc': 75.41}| Runtime: 0.9 mins
+2023-12-03_20-36-18: Epoch: 2 | Train loss: 53.288491447229646 | Train acc: {'40X': 69.77, '100X': 71.43, '200X': 69.21, '400X': 71.86, 'avg_acc': 70.57, 'all_acc': 70.54} | Valid loss: 39.413069801330565 | Valid acc: {'40X': 77.44, '100X': 78.42, '200X': 83.08, '400X': 78.02, 'avg_acc': 79.24, 'all_acc': 79.27}| Runtime: 0.9 mins
+2023-12-03_20-37-10: Epoch: 3 | Train loss: 26.492363056621038 | Train acc: {'40X': 69.51, '100X': 70.49, '200X': 73.71, '400X': 72.54, 'avg_acc': 71.56, 'all_acc': 71.54} | Valid loss: 45.19001453399658 | Valid acc: {'40X': 69.67, '100X': 70.26, '200X': 71.14, '400X': 67.58, 'avg_acc': 69.66, 'all_acc': 69.72}| Runtime: 0.9 mins
+2023-12-03_20-38-01: Epoch: 4 | Train loss: 35.52987423498888 | Train acc: {'40X': 68.84, '100X': 71.36, '200X': 71.72, '400X': 71.56, 'avg_acc': 70.87, 'all_acc': 70.86} | Valid loss: 154.4469987487793 | Valid acc: {'40X': 31.58, '100X': 32.61, '200X': 32.09, '400X': 37.09, 'avg_acc': 33.34, 'all_acc': 33.25}| Runtime: 0.9 mins
+2023-12-03_20-38-54: Epoch: 5 | Train loss: 15.913858018211416 | Train acc: {'40X': 71.22, '100X': 73.8, '200X': 76.22, '400X': 74.84, 'avg_acc': 74.02, 'all_acc': 74.01} | Valid loss: 7.15901235818863 | Valid acc: {'40X': 61.65, '100X': 64.03, '200X': 64.43, '400X': 62.91, 'avg_acc': 63.26, 'all_acc': 63.27}| Runtime: 0.9 mins
+2023-12-03_20-39-46: Epoch: 6 | Train loss: 12.076285129966768 | Train acc: {'40X': 69.42, '100X': 73.49, '200X': 76.76, '400X': 77.78, 'avg_acc': 74.36, 'all_acc': 74.28} | Valid loss: 3.2419634264707566 | Valid acc: {'40X': 75.44, '100X': 82.01, '200X': 79.85, '400X': 75.82, 'avg_acc': 78.28, 'all_acc': 78.38}| Runtime: 0.9 mins

@@ -1,0 +1,12 @@
+2023-12-04_18-08-49: config: {'n_epochs': 20, 'batch_size': 32, 'h': 224, 'w': 224, 'lr': 1e-05, 'optimizer': 'sgd', 'momentum': 0.9, 'weight_decay': 5e-05, 'device': 'cuda:0', 'n_gpus': 1, 'model': 'MLP', 'h_dim_list': [80, 50, 40]}
+2023-12-04_18-08-49: layers.0.weight: torch.Size([80, 150528])
+2023-12-04_18-08-49: layers.0.bias: torch.Size([80])
+2023-12-04_18-08-49: layers.2.weight: torch.Size([50, 80])
+2023-12-04_18-08-49: layers.2.bias: torch.Size([50])
+2023-12-04_18-08-49: layers.4.weight: torch.Size([40, 50])
+2023-12-04_18-08-49: layers.4.bias: torch.Size([40])
+2023-12-04_18-08-49: layers.6.weight: torch.Size([2, 40])
+2023-12-04_18-08-49: layers.6.bias: torch.Size([2])
+2023-12-04_18-08-49: 
+Total parameters: 12,048,492;	Trainable: 12,048,492
+2023-12-04_18-09-42: Epoch: 1 | Train loss: 0.6782134924385999 | Train acc: {'40X': 64.02, '100X': 65.12, '200X': 71.62, '400X': 63.64, 'avg_acc': 66.1, 'all_acc': 66.15} | Valid loss: 0.6574601197242737 | Valid acc: {'40X': 71.68, '100X': 71.7, '200X': 75.87, '400X': 70.6, 'avg_acc': 72.46, 'all_acc': 72.5}| Runtime: 0.9 mins
